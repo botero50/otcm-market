@@ -1,0 +1,368 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "otcm-market-search-feature;searching-otcm-quote-and-checking-the-market-cap",
+        "keyword": "Scenario Outline",
+        "line": 2,
+        "name": "Searching OTCM quote and checking the market cap",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 565000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am on the OTCMarkets page",
+            "match": {
+              "location": "steps\\Home_Steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3273000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I search \"OTCM\" market on the quote page",
+            "match": {
+              "location": "steps\\Home_Steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I capture all the variables required by the test for \"OTCM\"",
+            "match": {
+              "location": "steps\\Search_Quote.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I assert the Company name \"OTCM\" and the Symbol",
+            "match": {
+              "location": "steps\\Search_Quote.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I open the security tab",
+            "match": {
+              "location": "steps\\Search_Quote.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check if the market cap on home is equal to the market cap on security page",
+            "match": {
+              "location": "steps\\Search_Quote.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I print the market cap and the date",
+            "match": {
+              "location": "steps\\Search_Quote.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "otcm-market-search-feature;searching-rhhby-quote-and-checking-the-market-cap",
+        "keyword": "Scenario Outline",
+        "line": 2,
+        "name": "Searching RHHBY quote and checking the market cap",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am on the OTCMarkets page",
+            "match": {
+              "location": "steps\\Home_Steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I search \"RHHBY\" market on the quote page",
+            "match": {
+              "location": "steps\\Home_Steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I capture all the variables required by the test for \"RHHBY\"",
+            "match": {
+              "location": "steps\\Search_Quote.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 489000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I assert the Company name \"RHHBY\" and the Symbol",
+            "match": {
+              "location": "steps\\Search_Quote.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I open the security tab",
+            "match": {
+              "location": "steps\\Search_Quote.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check if the market cap on home is equal to the market cap on security page",
+            "match": {
+              "location": "steps\\Search_Quote.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I print the market cap and the date",
+            "match": {
+              "location": "steps\\Search_Quote.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "otcm-market-search-feature;searching-adbcf-quote-and-checking-the-market-cap",
+        "keyword": "Scenario Outline",
+        "line": 2,
+        "name": "Searching ADBCF quote and checking the market cap",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am on the OTCMarkets page",
+            "match": {
+              "location": "steps\\Home_Steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I search \"ADBCF\" market on the quote page",
+            "match": {
+              "location": "steps\\Home_Steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I capture all the variables required by the test for \"ADBCF\"",
+            "match": {
+              "location": "steps\\Search_Quote.js:11"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 20005000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 20000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\amaya\\OneDrive - Notified\\Desktop\\Playwright-Cucumber-main\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:63:28)\n    at listOnTimeout (internal/timers.js:555:17)\n    at processTimers (internal/timers.js:498:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I assert the Company name \"ADBCF\" and the Symbol",
+            "match": {
+              "location": "steps\\Search_Quote.js:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I open the security tab",
+            "match": {
+              "location": "steps\\Search_Quote.js:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I check if the market cap on home is equal to the market cap on security page",
+            "match": {
+              "location": "steps\\Search_Quote.js:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I print the market cap and the date",
+            "match": {
+              "location": "steps\\Search_Quote.js:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "otcm-market-search-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "OTCM Market search feature",
+    "tags": [],
+    "uri": "features\\Search.feature"
+  }
+]
